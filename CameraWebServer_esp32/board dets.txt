@@ -1,0 +1,2 @@
+Board: Esp32-s3 WROOM N8R8
+Flash memory: 8MB
