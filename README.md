@@ -59,7 +59,6 @@ The H-bridge inputs are connected to ESP32 GPIOs for PWM control of motor speed 
   - `numpy` (numerical operations)
   - `requests` or `http.client` (HTTP communication with ESP32)
   - `matplotlib` (optional, for plotting the 2D map)
-  - `pandas` (optional, for handling CSV logs)
 
 ### ESP32
 
@@ -70,9 +69,6 @@ The H-bridge inputs are connected to ESP32 GPIOs for PWM control of motor speed 
   - Run HTTP server for:
     - `/stream` or similar: serve JPEG frames.
     - `/cmd` or similar: accept control commands and update motor PWM outputs.
-
-> **Note:** Update endpoint names and ports in this README to match your actual firmware.
-
 ---
 
 ## How It Works
@@ -127,9 +123,6 @@ You’ll need these in the Python script.
 ### 2. Python Environment
 
 ```bash
-# Create and activate a virtual environment (optional)
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
 # Install dependencies
 pip install opencv-python numpy requests matplotlib pandas
+# run main.py
