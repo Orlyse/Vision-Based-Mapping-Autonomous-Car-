@@ -63,7 +63,7 @@ The H-bridge inputs are connected to ESP32 GPIOs for PWM control of motor speed 
 
 ### ESP32
 
-- **Environment**: Arduino IDE / PlatformIO / ESP-IDF (whichever you used)
+- **Environment**: Arduino IDE
 - Responsibilities:
   - Initialize camera (OV2640).
   - Connect to Wi-Fi network.
